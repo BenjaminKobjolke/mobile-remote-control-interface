@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "triggers": [
+    {
+      "name": "Phone Portrait",
+      "aspect_ratio_min": 0.4,
+      "aspect_ratio_max": 0.65,
+      "top_region_percent": 50,
+      "app_area_percent": 10,
+      "tile_background_color": "#0078D4",
+      "tile_text_color": "#FFFFFF",
+      "tile_columns": 4,
+      "tile_rows": 2,
+      "max_app_tiles": 8,
+      "max_shortcut_tiles": 4,
+      "custom_tiles": [
+        { "name": "S+Tab", "icon_path": "", "key_sequence": "shift+tab" },
+        { "name": "Esc", "icon_path": "", "key_sequence": "escape" },
+        { "name": "Enter", "icon_path": "", "key_sequence": "enter" },
+        { "name": "Down", "icon_path": "", "key_sequence": "down" },
+        { "name": "Up", "icon_path": "", "key_sequence": "up" }
+      ]
+    }
+  ],
+  "general": {
+    "config_hotkey": "ctrl+shift+f12",
+    "nav_button_size": 60,
+    "tile_padding": 4,
+    "icon_size": 30,
+    "font_size": 30,
+    "max_title_length": 10,
+    "show_tile_text": true,
+    "restore_windows_on_hide": true
+  }
+}
